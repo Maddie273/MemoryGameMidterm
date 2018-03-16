@@ -8,10 +8,25 @@ package com.example.tech.memorygame;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 
 //Button setup for the cards.
 public class MemoryGameButton extends android.support.v7.widget.AppCompatButton {
+
+
+    private TextView msg;
+    private TextView scoreCountText;
+    private TextView countdownText;
+    private ImageView card1, card2, card3, card4, card5, card6, card7, card8, card9;
+//private Wheel wheel11, wheel12, wheel13, wheel21, wheel22, wheel23, wheel31, wheel32, wheel33;
+//private Button btn;
+//private Button btnBet10;
+//private Button btnBet50;
+//private Button btnBet100;
+//private Button reset;
+//private boolean isStarted;
 
     protected int row;
     protected int column;
