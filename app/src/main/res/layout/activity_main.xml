@@ -11,7 +11,7 @@
 
     <!--Title text-->
     <TextView
-        android:id="@+id/Title"
+        android:id="@+id/title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pick a card, any card!"
@@ -23,7 +23,7 @@
 
     <!--Score-->
     <TextView
-        android:id="@+id/Score"
+        android:id="@+id/score"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -40,7 +40,7 @@
 
     <!--ScoreCount-->
     <TextView
-        android:id="@+id/ScoreCountText"
+        android:id="@+id/scoreCountText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -57,7 +57,7 @@
 
     <!--Timer-->
     <TextView
-        android:id="@+id/Countdown"
+        android:id="@+id/countdown"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -74,7 +74,7 @@
 
 <!--Timer Countdown-->
     <TextView
-        android:id="@+id/CountdownText"
+        android:id="@+id/countdownText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -91,7 +91,7 @@
 
      <!--First Card Placement-->
     <ImageButton
-        android:id="@+id/Card1"
+        android:id="@+id/card1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -108,7 +108,7 @@
 
     <!--Second Card Placement-->
     <ImageButton
-        android:id="@+id/Card2"
+        android:id="@+id/card2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -125,7 +125,7 @@
 
     <!--Third Card Placement-->
     <ImageButton
-        android:id="@+id/Card3"
+        android:id="@+id/card3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -142,7 +142,7 @@
 
     <!--Fourth Card Placement-->
     <ImageButton
-        android:id="@+id/Card4"
+        android:id="@+id/card4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="192dp"
@@ -159,7 +159,7 @@
 
     <!--Fifth Card Placement-->
     <ImageButton
-        android:id="@+id/Card5"
+        android:id="@+id/card5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -177,7 +177,7 @@
 
      <!--Sixth Card Placement-->
     <ImageButton
-        android:id="@+id/Card6"
+        android:id="@+id/card6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -195,7 +195,7 @@
 
     <!--Seventh Card Placement-->
     <ImageButton
-        android:id="@+id/Card7"
+        android:id="@+id/card7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -213,7 +213,7 @@
 
     <!--Eighth Card Placement-->
     <ImageButton
-        android:id="@+id/Card8"
+        android:id="@+id/card8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -231,7 +231,7 @@
 
      <!--Nineth Card Placement-->
     <ImageButton
-        android:id="@+id/Card9"
+        android:id="@+id/card9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
@@ -249,7 +249,7 @@
 
     <!-- Reset/Play Again Button-->
     <Button
-        android:id="@+id/ResetButton"
+        android:id="@+id/resetButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
