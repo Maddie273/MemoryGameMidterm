@@ -89,11 +89,72 @@ public class MemoryGameButton extends android.support.v7.widget.AppCompatButton 
 
     private void frontOfCardsResources(){
 
-        for(int i = 0; i < 52; i++)
-        {
-            int card[]
-            image101 = R.drawable.ic_image101;
-        }
+
+        cardsArray[0]= R.drawable.card_1c;
+        cardsArray[1]= R.drawable.card_1d;
+        cardsArray[2]= R.drawable.card_1h;
+        cardsArray[3]= R.drawable.card_1s;
+
+        cardsArray[4]= R.drawable.card_2c;
+        cardsArray[5]= R.drawable.card_2d;
+        cardsArray[6]= R.drawable.card_2h;
+        cardsArray[7]= R.drawable.card_2s;
+
+        cardsArray[8]= R.drawable.card_3c;
+        cardsArray[9]= R.drawable.card_3d;
+        cardsArray[10]= R.drawable.card_3h;
+        cardsArray[11]= R.drawable.card_3s;
+
+        cardsArray[12]= R.drawable.card_4c;
+        cardsArray[13]= R.drawable.card_4d;
+        cardsArray[14]= R.drawable.card_4h;
+        cardsArray[15]= R.drawable.card_4s;
+
+        cardsArray[16]= R.drawable.card_5c;
+        cardsArray[17]= R.drawable.card_5d;
+        cardsArray[18]= R.drawable.card_5h;
+        cardsArray[19]= R.drawable.card_5s;
+
+        cardsArray[20]= R.drawable.card_6c;
+        cardsArray[21]= R.drawable.card_6d;
+        cardsArray[22]= R.drawable.card_6h;
+        cardsArray[23]= R.drawable.card_6s;
+
+        cardsArray[24]= R.drawable.card_7c;
+        cardsArray[25]= R.drawable.card_7d;
+        cardsArray[26]= R.drawable.card_7h;
+        cardsArray[27]= R.drawable.card_7s;
+
+        cardsArray[28]= R.drawable.card_8c;
+        cardsArray[29]= R.drawable.card_8d;
+        cardsArray[30]= R.drawable.card_8h;
+        cardsArray[31]= R.drawable.card_8s;
+
+        cardsArray[32]= R.drawable.card_9c;
+        cardsArray[33]= R.drawable.card_9d;
+        cardsArray[34]= R.drawable.card_9h;
+        cardsArray[35]= R.drawable.card_9s;
+
+        cardsArray[36]= R.drawable.card_10c;
+        cardsArray[37]= R.drawable.card_10d;
+        cardsArray[38]= R.drawable.card_10h;
+        cardsArray[39]= R.drawable.card_10s;
+
+        cardsArray[40]= R.drawable.card_11c;
+        cardsArray[41]= R.drawable.card_11d;
+        cardsArray[42]= R.drawable.card_11h;
+        cardsArray[43]= R.drawable.card_11s;
+
+        cardsArray[44]= R.drawable.card_12c;
+        cardsArray[45]= R.drawable.card_12d;
+        cardsArray[46]= R.drawable.card_12h;
+        cardsArray[47]= R.drawable.card_12s;
+
+        cardsArray[48]= R.drawable.card_13c;
+        cardsArray[49]= R.drawable.card_13d;
+        cardsArray[50]= R.drawable.card_13h;
+        cardsArray[51]= R.drawable.card_13s;
+
 
     }
 
