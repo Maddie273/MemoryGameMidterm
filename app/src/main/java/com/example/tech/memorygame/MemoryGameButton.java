@@ -8,6 +8,8 @@ package com.example.tech.memorygame;
 
 import android.content.Context;
 import android.graphics.drawable.Drawable;
+import android.support.v7.widget.AppCompatDrawableManager;
+import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -49,7 +51,7 @@ public class MemoryGameButton extends android.support.v7.widget.AppCompatButton 
         row = r;
         column = c;
         frontDrawableId = frontImageDrawableId;
-/*
+
         front = AppCompatDrawableManager.get().getDrawable(context, frontImageDrawableId);
         back = AppCompatDrawableManager.get().getDrawable(context, R.drawable.button_question_mark);
 
@@ -60,7 +62,7 @@ public class MemoryGameButton extends android.support.v7.widget.AppCompatButton 
         tempParams.width = (int) getResources().getDisplayMetrice().density * 50;
         tempParams.height = (int) getResources().getDisplayMetrice().density * 50;
         setLayoutParams(tempParams);
-        */
+
 
     }
 
