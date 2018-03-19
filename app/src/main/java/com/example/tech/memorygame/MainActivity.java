@@ -25,8 +25,18 @@ public class MainActivity extends AppCompatActivity {
 
     Integer[] cardsArray = {101,102,103,104,105,106,201,202,203,204,205,206};
 
-    int image101, image102,image103,image104, image105,image106,
-            image201, image202,image203,image204, image205,image206;
+    int     Cards101,
+            Cards102,
+            Cards103,
+            Cards104,
+            Cards105,
+            Cards106,
+            Cards201,
+            Cards202,
+            Cards203,
+            Cards204,
+            Cards205,
+            Cards206;
 
     int firstCard, secondCard;
     int clickedFirst, clickedSecond;
@@ -178,40 +188,40 @@ public class MainActivity extends AppCompatActivity {
     private void doStuff(ImageView iv, int card){
         //set the correct image to the imageview
         if(cardsArray[card]==101) {
-            iv.setImageResource(image101);
+            iv.setImageResource(Cards101);
         }
         else if(cardsArray[card]==102){
-            iv.setImageResource(image102);
+            iv.setImageResource(Cards102);
         }
         else if(cardsArray[card]==103){
-            iv.setImageResource(image103);
+            iv.setImageResource(Cards103);
         }
         else if(cardsArray[card]==104){
-            iv.setImageResource(image104);
+            iv.setImageResource(Cards104);
         }
         else if(cardsArray[card]==105){
-            iv.setImageResource(image105);
+            iv.setImageResource(Cards105);
         }
         else if(cardsArray[card]==106){
-            iv.setImageResource(image106);
+            iv.setImageResource(Cards106);
         }
         else if(cardsArray[card]==201){
-            iv.setImageResource(image201);
+            iv.setImageResource(Cards201);
         }
         else if(cardsArray[card]==202){
-            iv.setImageResource(image202);
+            iv.setImageResource(Cards202);
         }
         else if(cardsArray[card]==203){
-            iv.setImageResource(image203);
+            iv.setImageResource(Cards203);
         }
         else if(cardsArray[card]==204){
-            iv.setImageResource(image204);
+            iv.setImageResource(Cards204);
         }
         else if(cardsArray[card]==205){
-            iv.setImageResource(image205);
+            iv.setImageResource(Cards205);
         }
         else if(cardsArray[card]==206) {
-            iv.setImageResource(image206);
+            iv.setImageResource(Cards206);
         }
         //check wich image is selected and save it to temporary variable
         if(cardNumber ==1) {
@@ -420,18 +430,18 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void frontOfCardsResources(){
-        image101 = R.drawable.ic_image101;
-        image102 = R.drawable.ic_image102;
-        image103 = R.drawable.ic_image103;
-        image104 = R.drawable.ic_image104;
-        image105 = R.drawable.ic_image105;
-        image106 = R.drawable.ic_image106;
-        image201 = R.drawable.ic_image201;
-        image202 = R.drawable.ic_image202;
-        image203 = R.drawable.ic_image203;
-        image204 = R.drawable.ic_image204;
-        image205 = R.drawable.ic_image205;
-        image206 = R.drawable.ic_image206;
+        Cards101 = R.drawable.card_1c;
+        Cards102 = R.drawable.card_2c;
+        Cards103 = R.drawable.card_3c;
+        Cards104 = R.drawable.card_4c;
+        Cards105 = R.drawable.card_5c;
+        Cards106 = R.drawable.card_6c;
+        Cards201 = R.drawable.card_7c;
+        Cards202 = R.drawable.card_8c;
+        Cards203 = R.drawable.card_9c;
+        Cards204 = R.drawable.card_10c;
+        Cards205 = R.drawable.card_11c;
+        Cards206 = R.drawable.card_12c;
     }
 
 

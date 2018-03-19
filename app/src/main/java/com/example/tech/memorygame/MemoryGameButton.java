@@ -59,8 +59,8 @@ public class MemoryGameButton extends android.support.v7.widget.AppCompatButton 
 
         GridLayout.LayoutParams tempParams = new GridLayout.LayoutParams(GridLayout.spec(r), GridLayout.spec(c));
 
-        tempParams.width = (int) getResources().getDisplayMetrice().density * 50;
-        tempParams.height = (int) getResources().getDisplayMetrice().density * 50;
+        tempParams.width = (int) getResources().getDisplayMetrics().density * 50;
+        tempParams.height = (int) getResources().getDisplayMetrics().density * 50;
         setLayoutParams(tempParams);
 
 

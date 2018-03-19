@@ -25,7 +25,7 @@ public class MenuActivity extends AppCompatActivity {
         button4x4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(MenuActivity.this, Game4x4Activity.class);
+                Intent intent = new Intent(MenuActivity.this, MemoryGameButton.class);
                 startActivity(intent);
             }
 
