@@ -30,7 +30,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game4x4);
+        setContentView(R.layout.activity_main);
 
 
         GridLayout gridLayout = findViewById(R.id.grid_layout_4x4);

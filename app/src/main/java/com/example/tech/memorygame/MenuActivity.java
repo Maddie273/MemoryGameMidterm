@@ -20,7 +20,7 @@ public class MenuActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menu);
 
-        button4x4 = (Button)findViewById(R.id.button_4x4_game);
+        button4x4 = (Button)findViewById(R.id.button_4x4);
 
         button4x4.setOnClickListener(new View.OnClickListener() {
             @Override
