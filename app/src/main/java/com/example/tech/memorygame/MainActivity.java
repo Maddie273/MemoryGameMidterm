@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
     TextView tv_p1, tv_p2;
 
-    ImageView iv_11,iv_12,iv_13, iv_14,iv_21,iv_22,iv_23, iv_24,iv_31,iv_32,iv_33, iv_34;
+    ImageView card11, card12, card13, card14, card21, card22, card23, card24, card31, card32, card33, card34;
 
     Integer[] cardsArray = {101,102,103,104,105,106,201,202,203,204,205,206};
 
@@ -53,31 +53,31 @@ public class MainActivity extends AppCompatActivity {
         tv_p1 = findViewById(R.id.tv_p1);
         tv_p2 = findViewById(R.id.tv_p2);
 
-        iv_11 = findViewById(R.id.iv_11);
-        iv_12 = findViewById(R.id.iv_12);
-        iv_13 = findViewById(R.id.iv_13);
-        iv_14 = findViewById(R.id.iv_14);
-        iv_21 = findViewById(R.id.iv_21);
-        iv_22 = findViewById(R.id.iv_22);
-        iv_23 = findViewById(R.id.iv_23);
-        iv_24 = findViewById(R.id.iv_24);
-        iv_31 = findViewById(R.id.iv_31);
-        iv_32 = findViewById(R.id.iv_32);
-        iv_33 = findViewById(R.id.iv_33);
-        iv_34 = findViewById(R.id.iv_34);
+        card11 = findViewById(R.id.card1);
+        card12 = findViewById(R.id.card2);
+        card13 = findViewById(R.id.card3);
+        card14 = findViewById(R.id.card4);
+        card21 = findViewById(R.id.card5);
+        card22 = findViewById(R.id.card6);
+        card23 = findViewById(R.id.card7);
+        card24 = findViewById(R.id.card8);
+        card31 = findViewById(R.id.card9);
+        card32 = findViewById(R.id.card10);
+        card33 = findViewById(R.id.card11);
+        card34 = findViewById(R.id.card12);
 
-        iv_11.setTag("0");
-        iv_12.setTag("1");
-        iv_13.setTag("2");
-        iv_14.setTag("3");
-        iv_21.setTag("4");
-        iv_22.setTag("5");
-        iv_23.setTag("6");
-        iv_24.setTag("7");
-        iv_31.setTag("8");
-        iv_32.setTag("9");
-        iv_33.setTag("10");
-        iv_34.setTag("11");
+        card11.setTag("0");
+        card12.setTag("1");
+        card13.setTag("2");
+        card14.setTag("3");
+        card21.setTag("4");
+        card22.setTag("5");
+        card23.setTag("6");
+        card24.setTag("7");
+        card31.setTag("8");
+        card32.setTag("9");
+        card33.setTag("10");
+        card34.setTag("11");
 
         //load the card images
         frontOfCardsResources();
@@ -88,99 +88,99 @@ public class MainActivity extends AppCompatActivity {
         //changing the color of the second player(inactive)
         tv_p2.setTextColor(Color.GRAY);
 
-        iv_11.setOnClickListener(new View.OnClickListener(){
+        card11.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_11, theCard);
+                doStuff(card11, theCard);
             }
         });
 
-        iv_12.setOnClickListener(new View.OnClickListener(){
+        card12.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_12, theCard);
+                doStuff(card12, theCard);
             }
         });
 
-        iv_13.setOnClickListener(new View.OnClickListener(){
+        card13.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_13, theCard);
+                doStuff(card13, theCard);
             }
         });
 
-        iv_14.setOnClickListener(new View.OnClickListener(){
+        card14.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_14, theCard);
+                doStuff(card14, theCard);
             }
         });
 
-        iv_21.setOnClickListener(new View.OnClickListener(){
+        card21.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_21, theCard);
+                doStuff(card21, theCard);
             }
         });
 
-        iv_22.setOnClickListener(new View.OnClickListener(){
+        card22.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_22, theCard);
+                doStuff(card22, theCard);
             }
         });
 
-        iv_23.setOnClickListener(new View.OnClickListener(){
+        card23.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_23, theCard);
+                doStuff(card23, theCard);
             }
         });
 
-        iv_24.setOnClickListener(new View.OnClickListener(){
+        card24.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_24, theCard);
+                doStuff(card24, theCard);
             }
         });
 
-        iv_31.setOnClickListener(new View.OnClickListener(){
+        card31.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_31, theCard);
+                doStuff(card31, theCard);
             }
         });
 
-        iv_32.setOnClickListener(new View.OnClickListener(){
+        card32.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_32, theCard);
+                doStuff(card32, theCard);
             }
         });
 
-        iv_33.setOnClickListener(new View.OnClickListener(){
+        card33.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_33, theCard);
+                doStuff(card33, theCard);
             }
         });
 
-        iv_34.setOnClickListener(new View.OnClickListener(){
+        card34.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(iv_34, theCard);
+                doStuff(card34, theCard);
             }
         });
     }
@@ -241,18 +241,18 @@ public class MainActivity extends AppCompatActivity {
             cardNumber = 1;
             secondCard = card;
 
-            iv_11.setEnabled(false);
-            iv_12.setEnabled(false);
-            iv_13.setEnabled(false);
-            iv_14.setEnabled(false);
-            iv_21.setEnabled(false);
-            iv_22.setEnabled(false);
-            iv_23.setEnabled(false);
-            iv_23.setEnabled(false);
-            iv_31.setEnabled(false);
-            iv_32.setEnabled(false);
-            iv_33.setEnabled(false);
-            iv_34.setEnabled(false);
+            card11.setEnabled(false);
+            card12.setEnabled(false);
+            card13.setEnabled(false);
+            card14.setEnabled(false);
+            card21.setEnabled(false);
+            card22.setEnabled(false);
+            card23.setEnabled(false);
+            card23.setEnabled(false);
+            card31.setEnabled(false);
+            card32.setEnabled(false);
+            card33.setEnabled(false);
+            card34.setEnabled(false);
 
             Handler handler = new Handler();
             handler.postDelayed(new Runnable() {
@@ -269,55 +269,55 @@ public class MainActivity extends AppCompatActivity {
         //if images are equal remove them and add points
         if(firstCard == secondCard) {
             if (clickedFirst == 0) {
-                iv_11.setVisibility(View.INVISIBLE);
+                card11.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 0) {
-                iv_12.setVisibility(View.INVISIBLE);
+                card12.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 2) {
-                iv_13.setVisibility(View.INVISIBLE);
+                card13.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 3) {
-                iv_14.setVisibility(View.INVISIBLE);
+                card14.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 4) {
-                iv_21.setVisibility(View.INVISIBLE);
+                card21.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 5) {
-                iv_22.setVisibility(View.INVISIBLE);
+                card22.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 6) {
-                iv_23.setVisibility(View.INVISIBLE);
+                card23.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 7) {
-                iv_24.setVisibility(View.INVISIBLE);
+                card24.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 8) {
-                iv_31.setVisibility(View.INVISIBLE);
+                card31.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 9) {
-                iv_32.setVisibility(View.INVISIBLE);
+                card32.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 10) {
-                iv_33.setVisibility(View.INVISIBLE);
+                card33.setVisibility(View.INVISIBLE);
             } else if (clickedFirst == 11) {
-                iv_34.setVisibility(View.INVISIBLE);
+                card34.setVisibility(View.INVISIBLE);
             }
 
             if (clickedSecond == 0) {
-                iv_11.setVisibility(View.INVISIBLE);
+                card11.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 0) {
-                iv_12.setVisibility(View.INVISIBLE);
+                card12.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 2) {
-                iv_13.setVisibility(View.INVISIBLE);
+                card13.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 3) {
-                iv_14.setVisibility(View.INVISIBLE);
+                card14.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 4) {
-                iv_21.setVisibility(View.INVISIBLE);
+                card21.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 5) {
-                iv_22.setVisibility(View.INVISIBLE);
+                card22.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 6) {
-                iv_23.setVisibility(View.INVISIBLE);
+                card23.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 7) {
-                iv_24.setVisibility(View.INVISIBLE);
+                card24.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 8) {
-                iv_31.setVisibility(View.INVISIBLE);
+                card31.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 9) {
-                iv_32.setVisibility(View.INVISIBLE);
+                card32.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 10) {
-                iv_33.setVisibility(View.INVISIBLE);
+                card33.setVisibility(View.INVISIBLE);
             } else if (clickedSecond == 11) {
-                iv_34.setVisibility(View.INVISIBLE);
+                card34.setVisibility(View.INVISIBLE);
             }
 
             if (turn == 1) {
@@ -328,18 +328,18 @@ public class MainActivity extends AppCompatActivity {
                 tv_p2.setText("P2: " + cpuPoints);
             }
         } else {
-            iv_11.setImageResource(R.drawable.ic_back);
-            iv_12.setImageResource(R.drawable.ic_back);
-            iv_13.setImageResource(R.drawable.ic_back);
-            iv_14.setImageResource(R.drawable.ic_back);
-            iv_21.setImageResource(R.drawable.ic_back);
-            iv_22.setImageResource(R.drawable.ic_back);
-            iv_23.setImageResource(R.drawable.ic_back);
-            iv_24.setImageResource(R.drawable.ic_back);
-            iv_31.setImageResource(R.drawable.ic_back);
-            iv_32.setImageResource(R.drawable.ic_back);
-            iv_33.setImageResource(R.drawable.ic_back);
-            iv_34.setImageResource(R.drawable.ic_back);
+            card11.setImageResource(R.drawable.cardback);
+            card12.setImageResource(R.drawable.cardback);
+            card13.setImageResource(R.drawable.cardback);
+            card14.setImageResource(R.drawable.cardback);
+            card21.setImageResource(R.drawable.cardback);
+            card22.setImageResource(R.drawable.cardback);
+            card23.setImageResource(R.drawable.cardback);
+            card24.setImageResource(R.drawable.cardback);
+            card31.setImageResource(R.drawable.cardback);
+            card32.setImageResource(R.drawable.cardback);
+            card33.setImageResource(R.drawable.cardback);
+            card34.setImageResource(R.drawable.cardback);
 
             //change the player turn
             if(turn == 1){
@@ -353,36 +353,36 @@ public class MainActivity extends AppCompatActivity {
             }
         }
 
-        iv_11.setEnabled(true);
-        iv_12.setEnabled(true);
-        iv_13.setEnabled(true);
-        iv_14.setEnabled(true);
-        iv_21.setEnabled(true);
-        iv_22.setEnabled(true);
-        iv_23.setEnabled(true);
-        iv_24.setEnabled(true);
-        iv_31.setEnabled(true);
-        iv_32.setEnabled(true);
-        iv_33.setEnabled(true);
-        iv_34.setEnabled(true);
+        card11.setEnabled(true);
+        card12.setEnabled(true);
+        card13.setEnabled(true);
+        card14.setEnabled(true);
+        card21.setEnabled(true);
+        card22.setEnabled(true);
+        card23.setEnabled(true);
+        card24.setEnabled(true);
+        card31.setEnabled(true);
+        card32.setEnabled(true);
+        card33.setEnabled(true);
+        card34.setEnabled(true);
 
         //check if the game is over
         checkEnd();
     }
 
     private void checkEnd(){
-        if(iv_11.getVisibility()== View.INVISIBLE &&
-                iv_12.getVisibility()== View.INVISIBLE &&
-                iv_13.getVisibility()== View.INVISIBLE &&
-                iv_14.getVisibility()== View.INVISIBLE &&
-                iv_21.getVisibility()== View.INVISIBLE &&
-                iv_22.getVisibility()== View.INVISIBLE &&
-                iv_23.getVisibility()== View.INVISIBLE &&
-                iv_24.getVisibility()== View.INVISIBLE &&
-                iv_31.getVisibility()== View.INVISIBLE &&
-                iv_32.getVisibility()== View.INVISIBLE &&
-                iv_33.getVisibility()== View.INVISIBLE &&
-                iv_34.getVisibility()== View.INVISIBLE){
+        if(card11.getVisibility()== View.INVISIBLE &&
+                card12.getVisibility()== View.INVISIBLE &&
+                card13.getVisibility()== View.INVISIBLE &&
+                card14.getVisibility()== View.INVISIBLE &&
+                card21.getVisibility()== View.INVISIBLE &&
+                card22.getVisibility()== View.INVISIBLE &&
+                card23.getVisibility()== View.INVISIBLE &&
+                card24.getVisibility()== View.INVISIBLE &&
+                card31.getVisibility()== View.INVISIBLE &&
+                card32.getVisibility()== View.INVISIBLE &&
+                card33.getVisibility()== View.INVISIBLE &&
+                card34.getVisibility()== View.INVISIBLE){
 
             AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(MainActivity.this);
             alertDialogBuilder
