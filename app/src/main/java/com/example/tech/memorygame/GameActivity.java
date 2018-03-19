@@ -30,7 +30,7 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_game4x4);
+        setContentView(R.layout.activity_main);
 
 
         GridLayout gridLayout = findViewById(R.id.grid_layout_4x4);
@@ -44,14 +44,29 @@ public class GameActivity extends AppCompatActivity implements View.OnClickListe
 
         buttonGraphics = new int[numberOfElements / 2];
 
-        buttonGraphics[0] = R.drawable.button_1;
-        buttonGraphics[1] = R.drawable.button_2;
-        buttonGraphics[2] = R.drawable.button_3;
-        buttonGraphics[3] = R.drawable.button_4;
-        buttonGraphics[4] = R.drawable.button_5;
-        buttonGraphics[5] = R.drawable.button_6;
-        buttonGraphics[6] = R.drawable.button_7;
-        buttonGraphics[7] = R.drawable.button_8;
+        buttonGraphics[0] = R.drawable.card_1c;
+        buttonGraphics[1] = R.drawable.card_2c;
+        buttonGraphics[2] = R.drawable.card_3c;
+        buttonGraphics[3] = R.drawable.card_4c;
+        buttonGraphics[4] = R.drawable.card_5c;
+        buttonGraphics[5] = R.drawable.card_6c;
+        buttonGraphics[6] = R.drawable.card_7c;
+        buttonGraphics[7] = R.drawable.card_8c;
+
+        /*
+        Cards101 = R.drawable.card_1c;
+        Cards102 = R.drawable.card_2c;
+        Cards103 = R.drawable.card_3c;
+        Cards104 = R.drawable.card_4c;
+        Cards105 = R.drawable.card_5c;
+        Cards106 = R.drawable.card_6c;
+        Cards201 = R.drawable.card_7c;
+        Cards202 = R.drawable.card_8c;
+        Cards203 = R.drawable.card_9c;
+        Cards204 = R.drawable.card_10c;
+        Cards205 = R.drawable.card_11c;
+        Cards206 = R.drawable.card_12c;
+         */
 
         buttonGraphicLocations = new int[numberOfElements];
 
