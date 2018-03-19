@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:paddingBottom="16dp"
+  android:paddingLeft="16dp"
+  android:paddingRight="16dp"
+  android:paddingTop="16dp"
+  tools:context="com.example.tech.memorygame.MenuActivity"
+  android:orientation="vertical"
+  android:gravity="center">
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:text="@string/title_Memory" />
+
+    <Button
+        android:id="@+id/button_4x4"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:text="@string/menu_option_4x4_game" />
+
+   <!-- <TextView
+        android2:layout_width="wrap_content"
+        android2:layout_height="wrap_content"
+        android2:layout_marginBottom="80dp"
+        android2:layout_weight="1"
+        android2:padding="10dp"
+        android2:text="@string/title_Memory" />-->
+</LinearLayout> <!--</android.support.constraint.ConstraintLayout>-->
