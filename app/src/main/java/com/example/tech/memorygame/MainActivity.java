@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card11, theCard);
+                associateCard(card11, theCard);
             }
         });
 
@@ -102,7 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card12, theCard);
+                associateCard(card12, theCard);
             }
         });
 
@@ -110,7 +110,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card13, theCard);
+                associateCard(card13, theCard);
             }
         });
 
@@ -118,7 +118,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card14, theCard);
+                associateCard(card14, theCard);
             }
         });
 
@@ -126,7 +126,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card21, theCard);
+                associateCard(card21, theCard);
             }
         });
 
@@ -134,7 +134,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card22, theCard);
+                associateCard(card22, theCard);
             }
         });
 
@@ -142,7 +142,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card23, theCard);
+                associateCard(card23, theCard);
             }
         });
 
@@ -150,7 +150,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card24, theCard);
+                associateCard(card24, theCard);
             }
         });
 
@@ -158,7 +158,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card31, theCard);
+                associateCard(card31, theCard);
             }
         });
 
@@ -166,7 +166,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card32, theCard);
+                associateCard(card32, theCard);
             }
         });
 
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card33, theCard);
+                associateCard(card33, theCard);
             }
         });
 
@@ -182,12 +182,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view){
                 int theCard = Integer.parseInt((String) view.getTag());
-                doStuff(card34, theCard);
+                associateCard(card34, theCard);
             }
         });
     }
 
-    private void doStuff(ImageView iv, int card){
+    private void associateCard(ImageView iv, int card){
         //set the correct image to the imageview
         if(cardsArray[card]==101) {
             iv.setImageResource(Cards101);

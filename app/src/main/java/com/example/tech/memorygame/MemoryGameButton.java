@@ -10,13 +10,14 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.support.v7.widget.AppCompatDrawableManager;
+import android.widget.Button;
 import android.widget.GridLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 
 //Button setup for the cards.
-public class MemoryGameButton extends android.support.v7.widget.AppCompatButton {
+public class MemoryGameButton extends Button {
     @SuppressLint("RestrictedApi")
 
 
@@ -91,7 +92,7 @@ public class MemoryGameButton extends android.support.v7.widget.AppCompatButton 
         }
     }
 
-    private void frontOfCardsResources(){
+    private void CardsResources(){
 
 
         cardsArray[0]= R.drawable.card_1c;
