@@ -49,7 +49,7 @@ public class MemoryGameButton extends Button {
         frontDrawableId = frontImageDrawableId;
 
         front = AppCompatDrawableManager.get().getDrawable(context, frontImageDrawableId);
-        back = AppCompatDrawableManager.get().getDrawable(context, R.drawable.button_question_mark);
+        back = AppCompatDrawableManager.get().getDrawable(context, R.drawable.cardback);
 
         setBackground(back);
 
