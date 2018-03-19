@@ -51,9 +51,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+/*
         tv_p1 = findViewById(R.id.tv_p1);
         tv_p2 = findViewById(R.id.tv_p2);
+        */
 
         card11 = findViewById(R.id.card1);
         card12 = findViewById(R.id.card2);
